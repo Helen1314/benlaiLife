@@ -1,0 +1,764 @@
+.head .nav-shoplist {
+	display: block!important;
+}
+.main{
+	overflow:hidden;
+}
+.main .banner {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	z-index: 20;
+}
+
+.main .bigbanner {
+	height: 400px;
+	position: relative;
+}
+
+.bigbanner .bannerImg a {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+}
+
+
+/*.bigbanner .bannerImg a:nth-child(1) {
+  display: block;
+}*/
+
+.banner-control {
+	width: 990px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	padding-left: 210px;
+}
+
+.banner-control div {
+	display: none;
+}
+
+.banner-control div .prev {
+	position: absolute;
+	top: 182px;
+	left: 210px;
+}
+
+.banner-control div .prev a {
+	width: 24px;
+	height: 48px;
+	background: url("../images/banner7.png") 7px 15px no-repeat #fff;
+	display: block;
+	opacity: .8;
+}
+
+.banner-control div .next {
+	position: absolute;
+	top: 182px;
+	right: 0;
+}
+
+.banner-control div .next a {
+	width: 24px;
+	height: 48px;
+	background: url("../images/banner7.png") -43px 15px no-repeat #fff;
+	display: block;
+	opacity: .8;
+}
+
+.banner-control ul {
+	position: absolute;
+	top: 396px;
+	right: 0;
+	height: 30px;
+	width: 990px;
+	overflow: hidden;
+	z-index: 40;
+}
+
+.banner-control ul li {
+	width: 163px;
+	margin-left: 2px;
+	float: left;
+}
+
+.banner-control ul li a {
+	width: 143px;
+	height: 30px;
+	display: block;
+	background-color: #a2a293;
+	background: rgba(162, 162, 147, 0.78);
+	transition: all .4s linear;
+	line-height: 30px;
+	padding: 0 10px;
+	font: 400 14px/30px "Microsoft YaHei";
+	color: #626252;
+	text-decoration: none!important;
+	text-overflow: clip;
+	overflow: hidden;
+	text-align: center;
+}
+
+.current {
+	background-color: #96bf17!important;
+	background: rgba(150, 191, 23, 0.75)!important;
+	color: #fff!important;
+}
+
+
+/*# sourceMappingURL=index.css.map */
+
+
+/*四张图的排列*/
+
+.box1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main .fourImg {
+	clear: both;
+	width: 1200px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.main .fourImg ul li {
+	float: left;
+}
+
+
+/*新品上线*/
+
+.main .new-shop {
+	height: 264px;
+}
+.main .aclass{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	
+}
+.main .new-shop .left-shop {
+	float: left;
+	width: 1010px;
+	height: 246px;
+	margin-bottom: 20px;
+}
+
+.left-shop .left-word {
+	background-color: #F8F8F6;
+	width: 123px;
+	height: 264px;
+	float: left;
+	border-right: 1px solid #c2d58f;
+	border-top: 1px solid #E5E5E5;
+	border-left: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+	position:relative;
+}
+
+.left-word #newtitle span{
+	display:block;
+	font: 400 16px/44px "Microsoft YaHei";
+	color: #626252;
+	height: 44px;
+	width: 123px;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	position:absolute;
+}
+.left-word #newtitle span:nth-child(2){
+	top:44px;
+}
+.active {
+	color: #78a000;
+	background-color: #fff;
+	border-top: 1px solid #c2d58f;
+	border-bottom: 1px solid #c2d58f;
+	border-left: 4px solid #91be16;
+	width: 117px;
+	padding-right: 4px;
+	position:absolute;
+	top:-1px;
+	box-sizing:border-box;
+}
+
+.left-shop .left-img {
+	height: 263px;
+	width: 885px;
+	float: left;
+	background-color:#F8F8F6;
+	border-top: 1px solid #c2d58f;
+}
+.left-shop .left-img .imgbox {
+	
+  /*  position: absolute;
+    top: -1px;
+    left: 124px;
+    z-index: 4;
+    width: 885px;
+    height: 264px;*/
+}
+.lis {
+	width: 176px;
+	float: left;
+	height: 264px;
+	border-bottom: 1px solid #eee;
+	border-right: 1px solid #eee;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+
+.sbox {
+	border: 4px solid #fff;
+	width: 140px;
+	height: 256px;
+	padding: 0 14px;
+	position: relative;
+	transition: all .2s linear;
+}
+
+.pic {
+	margin-top: 15px;
+	transition: all .2s linear;
+}
+
+.pimg {
+	width: 140px;
+	height: 140px;
+	
+}
+.pname{
+	height: 38px;
+    width: 140px;
+    text-overflow: clip;
+    display: block;
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all .2s linear;
+}
+.pa {
+	font: 400 14px/18px "Microsoft YaHei";
+	color: #3e4141;
+}
+.pa:hover{
+	color: #ff6900!important;
+	text-decoration:underline;
+}
+.pname .pti .mti {
+	height: 19px;
+	text-overflow:clip;
+	display: block;
+	overflow: hidden;
+}
+
+.pname .pti .sti {
+	font: 400 12px/18px "Microsoft YaHei";
+	color: #898989;
+	white-space:nowrap;
+	text-overflow:clip;
+}
+.pname .pti:hover .sti{
+	color: #ff6900!important;
+}
+.price {
+	font: 400 17px/25px "Microsoft YaHei";
+	color: #ff6900;
+	margin-top: 7px;
+	transition: all .2s linear;
+}
+
+.price .prev-price {
+	font-style: normal;
+	font: 400 12px/25px "Microsoft YaHei";
+	color: #686c69;
+	text-decoration: line-through;
+}
+
+.pbtn {
+	position: absolute;
+	top: 260px;
+	left: 0;
+	transition: all .2s linear;
+}
+
+.pbtn .pbtna {
+	background: url("../images/addcar.png") center top no-repeat;
+	width: 168px;
+	height: 33px;
+	display: block;
+}
+/*----------------------新品上线右侧的公告信息------------------------------------*/
+.main .new-shop .right-info {
+	float: right;
+    width: 175px;
+    height: 264px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(194, 213, 143);
+    border-image: initial;
+}
+.new-shop .right-info div:nth-child(1) h5{
+	font: 400 18px/45px "Microsoft YaHei";
+    color: #626252;
+    margin-top: 7px;
+    text-align: center;
+}
+.new-shop .right-info div:nth-child(1) div{
+	border-bottom: 1px solid #eee;
+    width: 155px;
+    float: left;
+    padding: 0 10px 15px;
+    text-overflow:clip;
+}
+.new-shop .right-info div:nth-child(1) div a{
+	font: 400 14px/28px "Microsoft YaHei";
+    color: #626262;
+}
+.new-shop .right-info div:nth-child(1) div a:hover{
+	color: #ff6900;
+	text-decoration:underline;
+}
+.new-shop .right-info .info-pic{
+	
+}
+/*----------买手力荐 -------------------------------------*/
+/*a标签跳转到详情页面*/
+.alink{
+	width:140px;
+	height:192px;
+	display:inline-block;
+	position:absolute;
+	top:28px;
+	left:23px;
+	z-index:33;
+}
+.alink2{
+	top:18px!important;
+	left:10px!important;
+}
+.main .buyer{
+    width: 1200px;
+    height: 470px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+	background:url(../images/buybg.jpg);
+}
+.main .buyer h4{
+	width: 74px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    font: 400 16px/45px "Microsoft YaHei";
+    color: #fff;
+    padding-left: 49px;
+    background: url("../images/buy1.png") 0 -84px no-repeat;
+}
+/*买手力荐的上半部分*/
+.main .buyer .buy-top{
+	float: left;
+    width: 1200px;
+    height: 170px;
+    background: url("../images/buy2.png") no-repeat;
+    position: relative;
+    z-index: 8;
+}
+.main .buyer .buy-top dl dt{
+	position: absolute;
+    width: 25px;
+    top: 31px;
+    left: 229px;
+    z-index: 7;
+}
+.main .buyer .buy-top dl dt p:nth-child(1){
+	margin-bottom: 9px;
+    background: url("../images/buy1.png") 0 -50px no-repeat;
+    width: 25px;
+    height: 33px;
+}
+.main .buyer .buy-top dl dt p:nth-child(2){
+	top: 48px;
+    left: 7px;
+    position: absolute;
+    z-index: 7;
+    background: url("../images/buy1.png") -35px -50px no-repeat;
+    width: 10px;
+    height: 10px;
+}
+.twink{
+	top: 48px;
+    left: 7px;
+    position: absolute;
+    z-index: 10;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+/*.main .buyer .buy-top dl dt p:nth-child(3){
+	margin: 8px 0 0 1px;
+    background: #E89E5F;
+    border-radius:50%;
+    width: 22px;
+    height: 22px;
+    opacity:1; 
+    -webkit-animation: twinkle 1s ease-out infinite normal;
+    animation: twinkle 1s ease-out infinite normal;
+}*/
+ /* @keyframes twinkle{
+    	0%{transform:scale(0.45);opacity:1;};
+        100%{transform:scale(3);opacity:0.1;filter:alpha(opacity=0)};
+    }*/
+.main .buyer .buy-top dl dd{
+	position:absolute;
+	z-index:8;
+}
+.main .buyer .buy-top dl dd:nth-child(2){
+	top: 31px;
+    left: 196px;
+}
+.main .buyer .buy-top dl dd:nth-child(2) a{
+	color: #f98601;
+}
+.main .buyer .buy-top dl dd:nth-child(3){
+	top: 16px;
+    left: 390px;
+}
+.main .buyer .buy-top dl dd:nth-child(4){
+	top: 44px;
+    left: 582px;
+}
+.main .buyer .buy-top dl dd:nth-child(5){
+	top: 19px;
+    left: 771px;
+}
+.main .buyer .buy-top dl dd:nth-child(6){
+	top: 33px;
+    left: 984px;
+}
+.main .buyer .buy-top dl dd a{
+	font: 400 16px/45px "Microsoft YaHei";
+    color: #1e301d;
+    width: 90px;
+    height: 45px;
+    text-overflow: clip;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 60px;
+}
+.main .buyer .buy-top dl dd a:hover{
+	color: #f98601;
+}
+/*买手力荐的下班部分*/
+.main .buyer  .buy-bottom{
+	width: 1160px;
+    height: 280px;
+    float: left;
+    position: relative;
+    z-index: 9;
+    margin-left: 20px;
+    display: inline;
+}
+.main .buyer  .buy-bottom .buy-bbg{
+	background-color: #fff;
+    opacity: .9;
+    filter: alpha(opacity=91);
+    box-shadow: 3px 1px 9px rgba(0,0,0,.2);
+    width: 1160px;
+    height: 280px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+}
+.main .buyer  .buy-bottom .buy-shop{
+	padding: 0 22px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    overflow: hidden;
+}
+.main .buyer  .buy-bottom .buy-shop li{
+	width: 178px;
+    float: left;
+    height: 272px;
+    padding: 4px;
+    position: relative;
+    
+}
+.main .buyer  .buy-bottom .buy-shop li:hover{
+	background-color: #fff;
+    box-shadow: 1px 1px 8px rgba(227,227,227,.9);
+    transition: all .2s linear;
+}
+.main .buyer .buy-shop li .pic2{
+	margin: 25px 0 0 19px;
+}
+.main .buyer .buy-shop li .pn2{
+	margin: 15px 0 0 19px;
+}
+.main .buyer .buy-shop li .pr2{
+	margin: 7px 0 0 19px;
+}
+.main .buyer .buy-shop li .pb2{
+	top: 280px;
+    left: 4px;
+}
+/*<!-----------------------------------在线商品列表------------------------------------>*/
+/*--------------------------------时令鲜果-----------------------------------*/
+.main #OnlineHomePage{
+	clear:both;
+	
+}
+.online-bar{
+	float: left;
+    margin-bottom: 10px;
+    width: 1200px;
+    height: 120px;
+}
+.online-bar img{
+	width: 1200px;
+    height: 120px;
+}
+.online-prolist{
+	width: 1200px;
+    height: 578px;
+    float: left;
+    margin-bottom: 20px;
+}
+.online-prolist .online-tab{
+	float: left;
+    width: 1200px;
+    height: 47px;
+    position: relative;
+    z-index: 0;
+    background-color: #f8f8f6;
+    border-bottom: 1px solid #91b678;
+}
+.online-tab .online-til{
+	float: left;
+    width: 300px;
+    height: 35px;
+    margin: 6px 0 0 15px;
+}
+.online-til em{
+	width: 35px;
+    height: 35px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    background: url("../images/icon5.png") no-repeat;
+}
+.online-til .ticon1{
+	background-position:-86px -86px;
+}
+.online-til .ticon2{
+	background-position:-86px -129px;
+}
+.online-til .ticon3{
+	background-position:-86px -172px;
+}
+.online-til .ticon4{
+	background-position:-86px -215px;
+}
+.online-til .ticon5{
+	background-position:-86px -258px;
+}
+.online-til .ticon6{
+	background-position:-86px -602px;
+}
+.online-til .ticon7{
+	background-position:-86px -387px;
+}
+.online-til .ticon8{
+	background-position:-86px -301px;
+}
+.online-til .ticon9{
+	background-position:-86px -344px;
+}
+.online-til .ticon10{
+	background-position:-86px -473px;
+}
+.online-til a{
+	font: 400 18px/35px "Microsoft YaHei";
+    color: #626252;
+}
+.online-tab s{
+	top: 10px;
+    left: 314px;
+    width: 0;
+    height: 27px;
+    border-left: 1px solid #e6e6e6;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+}
+.online-lable{
+	width: 314px;
+    height: 530px;
+    float: left;
+    border-right: 1px solid #eee;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    z-index: 5;
+}
+.online-lable img{
+	width: 314px;
+    height: 400px;
+}
+.online-lable ul{
+	border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    float: left;
+    width: 283px;
+    height: 121px;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    padding: 7px 0 0 30px;
+}
+.online-lable ul li{
+	width: 52px;
+    height: 52px;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+.online-lable ul li a{
+	width: 50px;
+    height: 50px;
+    border: 1px solid #a6ca44;
+    display: inline-block;
+    text-align: center;
+    font: 400 14px/50px "Microsoft YaHei";
+    color: #78a000;
+    background-color: #fff;
+    border-radius: 10px;
+    text-overflow: clip;
+    overflow: hidden;
+   
+}
+.online-lable ul li .four{
+	line-height: 20px;
+    padding: 4px 5px 0;
+    width: 40px;
+    height: 46px;
+}
+.online-pros dl{
+	height: 27px;
+    width: 124px;
+    float: left;
+    margin: 10px 0;
+    border-right: 1px solid #e5e5e5;
+}
+.online-pros dl dt{
+	position: relative;
+    z-index: 5;
+    top: -10px;
+    left: 0;
+    text-align: center;
+}
+.online-pros dl dt a{
+	font: 400 14px/37px "Microsoft YaHei";
+    color: #626252;
+    display: block;
+    padding: 5px 0;
+    width: 125px;
+    height: 37px;
+    text-overflow: clip;
+    display: block;
+    overflow: hidden;
+}
+.online-pros .on{
+	font: 400 16px/37px "Microsoft YaHei";
+    color: #769b06;
+    padding: 0 0 6px;
+    border-top: 5px solid #91be16;
+    border-left: 1px solid #91b678;
+    border-right: 1px solid #91b678;
+    background-color: #fff;
+    width: 124px;
+}
+.online-pros dl dd{
+	position: absolute;
+    top: 48px;
+    left: 0;
+    z-index: 4;
+    width: 1200px;
+    height: 530px;
+    display: none;
+}
+.online-pros dl dd ul{
+	height: 530px!important;
+    float: right!important;
+    width: 885px;
+}
+
+/*---------------左侧的楼梯效果----------------------------*/
+.main .stairs{
+	top: 958px;
+    left: 14.5px;
+    display: block;
+    position: fixed;
+    z-index: 69;
+    width: 42px;
+}
+.stairs a{
+	width: 42px;
+    height: 42px;
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+    background: url("../images/icon5.png") no-repeat;
+}
+.stairs a:hover{
+	background-position-x:-43px;
+}
+.main .stairs .stop{
+	background-position: 0 -516px;
+}
+.stairs .st1{
+	background-position: 0 -86px;
+}
+.stairs .st2{
+	background-position: 0 -129px;
+}
+.stairs .st3{
+	background-position: 0 -172px;
+}
+.stairs .st4{
+	background-position: 0 -215px;
+}
+.stairs .st5{
+	background-position: 0 -258px;
+}
+.stairs .st6{
+	background-position: 0 -602px;
+}
+.stairs .st7{
+	background-position: 0 -387px;
+}
+.stairs .st8{
+	background-position: 0 -301px;
+}
+.stairs .st9{
+	background-position: 0 -344px;
+}
+.stairs .st10{
+	background-position: 0 -473px;
+}

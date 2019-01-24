@@ -1,0 +1,423 @@
+.box1{
+	width:1200px;
+	margin:0 auto;
+	/*overflow:hidden;*/
+	height:auto;
+}
+.main-tab{
+	width: 1200px;
+    float: left;
+    color: #959595;
+    line-height: 40px;
+}
+.main-tab a{
+	color:#959595;
+}
+.main-tab a:hover{
+	text-decoration:underline;
+	color:#ff6900;
+}
+.main .main-good{
+	width: 596px;
+    float: left;
+}
+.good-img{
+	float:left;
+}
+.main-good dl{
+	width: 84px;
+    float: left;
+    margin-right:10px;
+}
+.main-good dl dt a.dup{
+	width: 82px;
+    height: 15px;
+    text-align: center;
+    float:left;
+    border: 1px solid #c9c9c9;
+    background: url("../images/icon7.png") 33px 5px no-repeat;
+}
+.main-good dl dt a.down{
+	width: 82px;
+    height: 15px;
+    float:left;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+    background: url("../images/icon7.png") 33px -21px no-repeat;
+}
+
+.main-good dl dd{
+	width: 84px;
+    float: left;
+    margin-top: 8px;
+    height: 460px;
+    /*overflow: hidden;*/
+}
+.main-good dl dd a{
+	border: 1px solid #c9c9c9;
+    display: block;
+    margin-bottom: 8px;
+}
+.main-good dl dd a:hover,.notice a:hover{
+	border-color:#8ab800;
+}
+.main-good dl dd a img{
+	width: 82px;
+    height: 82px;
+    overflow:hidden;
+}
+.main-good .zoombox{
+	float: right;
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(201, 201, 201);
+    margin-top: 0px;
+    position:relative;
+}
+.main-good .midpic{
+	position:absolute;
+	width:500px;
+	height:500px;
+	overflow: hidden;
+}
+.midpic .smallimg{
+	width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+.zoombox .mask{
+	position:absolute;
+	z-index:888;
+	width: 175px;
+    height: 175px;
+    background-color:#fff;
+    opacity:0.4;
+    border: 1px solid #aaa;
+    display:none;
+    top:0;
+}
+.zoombox .bigpic{
+	width:500px;
+	height:500px;
+	position:absolute;
+	left:510px;
+	top:-1px;
+	z-index:200;
+	overflow: hidden;
+	border: 1px solid rgb(201, 201, 201);
+	display:none;
+}
+.zoombox .bigpic .bigimg{
+	position:absolute;
+	top:0;
+	left:0;
+}
+/*-----商品编号------*/
+.good-number{
+	float: left;
+    width: 270px;
+    line-height: 45px;
+    color: #535353;
+}
+/*-----商品收藏------*/
+.good-collect{
+	float: right;
+    margin: 0 10px 0 15px;
+    display: inline;
+}
+.good-collect a{
+	line-height: 45px;
+    color: #535353;
+    padding-left: 20px;
+    display: block;
+    background: url("../images/icon8.gif") 0 -154px no-repeat;
+}
+.good-collect a:hover{
+	color:#ff6900;
+}
+/*-----商品分享------*/
+.good-share{
+	float: right;
+    width: 87px;
+    margin-top: 6px;
+    background-color: #fff;
+}
+.good-share dl{
+	position: relative;
+    z-index: 80;
+    width:85px;
+}
+.good-share dl dt{
+	height: 30px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    line-height: 30px;
+    background:url("../images/icon1.png") 65px 13px no-repeat;
+}
+.good-share dl dt s{
+	background: url("../images/icon8.gif") 0 -100px no-repeat;
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 7px 5px 0 6px;
+    display: block;
+}
+.good-share dl dd{
+	position: absolute;
+    top: 31px;
+    left: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 83px;
+    height:30px;
+   /* padding: 3px 0 10px;*/
+    display: none;
+    margin:0;
+}
+.good-share dl dd img{
+	margin-left:7px;
+	display:inline-block;
+}
+/*----------------右侧的文字介绍------------------------------*/
+.good-intro{
+	float: right;
+    width: 570px;
+}
+.good-intro .intro-name{
+	float: right;
+    width: 570px;
+    height: auto!important;
+    min-height: 68px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.intro-name .name1{
+	font: 800 18px/34px "Microsoft YaHei";
+    color: #4c4c4c;
+}
+.intro-name .name2{
+	font-size: 14px;
+    color: #ff6900;
+    line-height: 26px;
+}
+.good-intro  .intro-sales{
+	float: right;
+    width: 570px;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 18px 0;
+}
+.intro-sales .intro-price{
+	float: left;
+    width: 570px;
+    margin: 0 0 18px;
+}
+.intro-sales .intro-price p{
+	float:left;
+}
+.intro-price .drop{
+	color: #fff;
+    font-size: 14px;
+    background-color: #ff6900;
+    line-height: 26px;
+    padding: 0 8px;
+    margin-right: 10px;
+}
+.intro-price .price span{
+	font: 800 26px/26px "Microsoft YaHei";
+    color: #ff6900;
+}
+.intro-price .price font{
+	font: 800 16px/26px "Microsoft YaHei";
+    color: #4c4c4c;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.intro-price .notice{
+	margin: 3px 0 0 20px;
+}
+.notice a{
+	background: url("../images/icon8.gif") 10px -31px no-repeat;
+    border: 1px solid #e7e7e7;
+    line-height: 18px;
+    color: #4c4c4c;
+    padding: 0 10px 0 25px;
+    display: block;
+}
+.intro-app{
+	float:left;
+}
+.intro-app dl{
+	float: left;
+    width: 125px;
+    height: 26px;
+    position: relative;
+    z-index: 10;
+}
+.intro-app dl dt a{
+	float: left;
+    width: 97px;
+    height: 26px;
+    background: url("../images/app.png") 0 0 no-repeat #ff6900;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 28px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.intro-app dl dd{
+	position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 26px;
+    width: 220px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-bottom: 10px;
+    display: none;
+}
+.intro-app dl dd p{
+	background-color: #f4f4f4;
+    line-height: 30px;
+}
+.intro-app dl dd img{
+	width: 220px;
+}
+.intro-app dl dd em{
+	font-size: 14px;
+    font-weight: 700;
+}
+/*---------购买信息--------------------*/
+.good-intro .good-buy{
+	float: left;
+    width: 570px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.good-intro .good-buy dl{
+	float: right;
+    width: 570px;
+    height: 52px;
+}
+.good-intro .good-buy dl dt{
+	width: 75px;
+    float: left;
+    margin-right: 15px;
+}
+.good-buy dl dt .buynum{
+	border: 1px solid #cdcdcd;
+    width: 54px;
+    height: 48px;
+    font: 400 24px/48px "Microsoft YaHei";
+    color: #626262;
+    text-align: center;
+    float: left;
+}
+.good-buy dl dt a{
+	float: left;
+    width: 19px;
+    height: 25px;
+    display: block;
+}
+.good-buy dl dt .numup{
+	background: url("../images/icon7.png") 0 -52px no-repeat;
+}
+.good-buy dl dt .numdown{
+	background: url("../images/icon7.png") -20px -52px no-repeat;
+}
+.good-buy dl dd{
+	float:left;
+}
+.good-buy dl dd .buybtn1{
+	width: 182px;
+    height: 52px;
+    display: block;
+    background: url("../images/btnimg.gif") no-repeat;
+    float: left;
+    margin-right: 15px;
+}
+.good-buy dl dd .buybtn1:hover{
+	background-position: -183px 0;
+}
+.good-buy dl dd .buy_evaluate{
+	color: #4c4c4c;
+    line-height: 52px;
+    float: left;
+}
+.buy_evaluate font{
+	font: 400 18px/52px "Microsoft YaHei";
+    color: #ff6900;
+    padding: 0 8px;
+}
+.buy_evaluate b{
+	font-weight:normal;
+	color:#ff6900;
+}
+.buy_evaluate a{
+	color:#4c4c4c;
+}
+.buy_evaluate a:hover{
+	color:#ff6900;
+}
+/*配送信息--------------------------*/
+.good-today{
+	float: left;
+    width: 570px;
+    padding-bottom: 25px;
+}
+.good-today dl{
+	float: left;
+    margin-right: 10px;
+    position: relative;
+    z-index: 0;
+}
+.good-today dl dt{
+	background-color: #91c103;
+    border: 1px solid #91c103;
+    float: left;
+    color: #fff;
+    line-height: 23px;
+    padding-right: 3px;
+    cursor: pointer;
+    padding-left:25px;
+    background:url("../images/psc.gif") no-repeat #91c103;
+}
+.good-today dl dd{
+	line-height: 18px;
+    border: 1px solid #f1e1d3;
+    background-color: #fff5ec;
+    color: #616261;
+    padding: 0 8px;
+    z-index: 79;
+    margin-top: 10px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 378px;
+    display: none;
+}
+.good-today dl dd s{
+	position: absolute;
+    top: -5px;
+    left: 14px;
+    width: 8px;
+    height: 5px;
+    display: block;
+    background: url("../images/icon7.png") 0 -97px no-repeat;
+}
+.good-intro .good-today dl:nth-child(2) dt{
+	background:url("../images/cwp.gif") no-repeat #91c103;
+}
+/*---------------温馨提示---------------------*/
+.good-intro .good-prompt{
+	float: left;
+    width: 570px;
+    padding-bottom: 20px;
+    line-height: 18px;
+}
+.good-prompt i{
+	color: #79a000;
+	font-style:normal;
+}

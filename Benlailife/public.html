@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>本来生活网-头部底部</title>
+		<link rel="stylesheet" href="css/public.css" />
+	</head>
+	<body>
+		<!--顶部-->
+		<div class="public-head">
+			<!--最顶端的灰色导航条-->
+			<div class="head-top">
+				<div class="w1200">
+					<div class="top-left">
+						<div class="unlogin">
+							您好，<a id="tlogin" href="login.html"></a>请
+							<a href="login.html" target="_blank">[登录]</a>
+							<a href="register.html" target="_blank">[注册]</a>
+							<a href="script;" target="_blank">[机构会员]</a>
+						</div>
+						<dl>
+							<dt>
+								<a href="javascript:;">
+									<p>您好,</p><em id="uname"></em>
+								</a>
+								<div class="tcbg"></div>
+							</dt>
+							<dd>
+								<div class="user_login">
+									<a href="javascript:;"><p id="dname"></p></a>
+									<a href="javascript:;" id="nologin">[退出登录]</a>
+								</div>
+								<em>
+									<a href="javascript:;">
+										级别<br />
+										<span>注册会员</span>
+									</a>
+								</em>
+								<em>
+									<a href="javascript:;">
+										积分<br />
+										<span style="display:block">0分</span>
+										<font>（0.0元）</font>
+									</a>
+								</em>
+								<em>
+									<a href="javascript:;">
+										优惠券<br />
+										<span>3张</span>
+									</a>
+								</em>
+							</dd>
+						</dl>
+					</div>
+					<div class="top-city">
+						<a href="javascript:;" class="a-city" id="acity">
+							送至：<span id="checked_city">北京</span>
+						</a>
+						<!--城市的弹出框-->
+						<div class="alert-city">
+							<div class="city-advice">
+								<p>建议您选择收货城市：</p>
+								<a href="javascript:;" id="city">北京</a>
+								<a href="javascript:;" id="closecity"></a>
+							</div>
+							<div class="hot-city">
+								<dl>
+									<dt>热门城市：</dt>
+									<dd>
+										<a href="javascript:;">北京</a>
+										<a href="javascript:;">天津</a>
+										<a href="javascript:;">南京</a>
+										<a href="javascript:;">无锡</a>
+										<a href="javascript:;">苏州</a>
+										<a href="javascript:;">杭州</a>
+										<a href="javascript:;">宁波</a>
+										<a href="javascript:;">广州</a>
+										<a href="javascript:;">深圳</a>
+										<a href="javascript:;">佛山</a>
+										<a href="javascript:;">江门</a>
+										<a href="javascript:;">惠州</a>
+										<a href="javascript:;">珠海</a>
+										<a href="javascript:;">东莞</a>
+										<a href="javascript:;">中山</a>
+										<a href="javascript:;">常州</a>
+										<a href="javascript:;">南通</a>
+										<a href="javascript:;">扬州</a>
+										<a href="javascript:;">镇江</a>
+										<a href="javascript:;">嘉兴</a>
+										<a href="javascript:;">绍兴</a>
+										<a href="javascript:;">上海</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="all-city">
+								<dl>
+									<dt>全部城市：</dt>
+									<dd>
+										<em>北京市</em>
+										<em>上海市</em>
+										<em>广东省</em>
+										<em>江苏省</em>
+										<em>浙江省</em>
+										<em>天津市</em>
+										<em>安徽省</em>
+										<em>山东省</em>
+									</dd>
+									
+									<dd>
+										<em>辽宁省</em>
+										<em>河北省</em>
+										<em>河南省</em>
+										<em>湖北省</em>
+										<em>湖南省</em>
+										<em>山西省</em>
+										<em>福建省</em>
+										<em>江西省</em>
+									</dd>
+									<dd>
+										<em>广西省</em>
+										<em>海南省</em>
+										<em>重庆市</em>
+										<em>四川省</em>
+										<em>陕西省</em>
+									</dd>
+									
+								</dl>
+							</div>
+							<div class="search-city">
+								<dl>
+									<dt>按拼查找：</dt>
+									<dd class="search-letter">
+										<a href="">A</a>
+										<a href="">B</a>
+										<a href="">C</a>
+										<a href="">D</a>
+										<a href="">E</a>
+										<a href="">F</a>
+										<a href="">G</a>
+										<a href="">H</a>
+										<a href="">I</a>
+										<a href="">J</a>
+										<a href="">K</a>
+										<a href="">L</a>
+										<a href="">M</a>
+										<a href="">N</a>
+										<a href="">O</a>
+										<a href="">P</a>
+										<a href="">Q</a>
+										<a href="">R</a>
+										<a href="">S</a>
+										<a href="">T</a>
+										<a href="">U</a>
+										<a href="">V</a>
+										<a href="">W</a>
+										<a href="">X</a>
+										<a href="">Y</a>
+										<a href="">Z</a>
+									</dd>
+									<dd class="search-con"></dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+					<!--顶部右侧的-->
+					<div class="top-right">
+						<ul >
+							<li>
+								<span></span>
+								<a href="javascript:;" target="_blank">我的订单</a>
+							</li>
+							<li><a href="javascript:;" target="_blank">本来礼品</a></li>
+							<li>
+								<div class="divzhang">
+									<a href="javascript:;" class="zhang-top" target="_blank">掌上本来</a>
+									<div class="zhangcover"></div>
+									<div class="zhang-bottom">
+										<img src="images/zhang.png" alt="" />
+										<p>扫描下载客户端</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="service">
+									<dl>
+										<dt id="dt_service">
+											<a href="javascript:;" target="_blank">客户服务</a>
+											<div class="serviceover"></div>
+										</dt>
+										<dd>
+											<p><a href="javascript:;" target="_blank">在线客服</a></p>
+											<p><a href="javascript:;" target="_blank">联系客服</a></p>
+											<p><a href="javascript:;">销售热线</a></p>
+											<p><a href="javascript:;">帮助中心</a></p>
+										</dd>
+									</dl>
+								</div>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+			<!--最顶端的轮播图条-->
+			<div class="head-bar">
+				<a href="javascript:;" target="_blank" class="head-barimg" style="background:url('images/head_bar1.jpg') top center no-repeat;"></a>
+				<a href="javascript:;" target="_blank" class="head-barimg" style="background:url('images/head_bar2.jpg') top center no-repeat;"></a>
+				<a href="javascript:;" target="_blank" class="head-barimg" style="background:url('images/head_bar3.jpg') top center no-repeat;"></a>
+			</div>
+			<!--顶端的logo条-->
+			<div class="box1200">
+				<div class="head-logo-box">
+					<div class="head-logo">
+						<a href="index.html">
+							<img src="images/logo.gif" alt="" />
+						</a>
+					</div>
+					<!--顶部的搜索框-->
+					<div class="head-search">
+						<ol class="head-search-word">
+							<li>
+								<a href="">金果</a>
+							</li>
+							<li>
+								<a href="">牛油果</a>
+							</li>
+							<li>
+								<a href="">石板大米</a>
+							</li>
+							<li>
+								<a href="">黄花鱼</a>
+							</li>
+							<li>
+								<a href="">牛腱子</a>
+							</li>
+							<li>
+								<a href="">李玉双有机稻花香</a>
+							</li>
+						</ol>
+						<div class="head-search-box">
+							<input type="text" value="褚橙优级果138元10斤 " id="search_box"/>
+							<a href="javascript:;" id="searchBtn"></a>
+						</div>
+						<div class="head-search-list">
+						</div>
+					</div>
+					<!--顶部的购物车-->
+					<div class="head-shopcar">
+						<div class="carbox">
+							<span id="proNum">0</span>
+							<a href="shopcar.html" class="procar" title="前往购物车">
+								<em></em>
+								购物车
+							</a>
+						</div>
+						<div class="head-shoplist">
+							<div class="none-pro">购物车中还没有商品，赶快选购吧！</div>
+							<div class="fulpro">
+								<ul>
+									<!--<li>
+										<a href="index.html"><img src="images/proimg/fruit02.jpg" alt="" class="pic2"/></a>
+										<div class="name">
+											<a href="index.html" class="pname">丹东东港红颜草莓2盒装（400-450g/盒）</a>
+										</div>
+										<div class="price">￥69.00</div>
+										<div class="digital">
+											<i>x</i><span class="num"></span>
+										</div>
+									</li>-->
+								</ul>
+								<div class="buy3">
+									<p class="psum">
+										共<font class="tonum"></font>件商品，共计<span class="total"></span>
+									</p>
+									<p class="word3">此金额尚未计入优惠、折扣部分</p>
+									<a href="shopcar.html" class="jsbtn3">去结算</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--我的本来-->
+					<div class="head-my">
+						<div class="headmy1">
+							
+							<dl class="my-top">
+								<dt></dt>
+								<dd><a href="javascript:;"><s></s>我的本来</a>
+									<div style="width:123px"></div>
+								</dd>
+							</dl>
+							<div class="my-bottom">
+								<div class="my-login">
+									<h4>您好，请<a href="login.html">[登录]</a></h4>
+									<div class="onlogin">
+										<a href="javascript" class="lname">
+											<p>您好，</p><em id="lname"></em>
+										</a>
+										<a href="javascript:;" class="my-go">去我的本来首页 > </a>
+									</div>
+								</div>
+								
+								<ul>
+									<li>
+										<a href="javascript:;" target="_blank">订单状态查询(<span>0</span>)</a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的订单></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">待支付订单(<span>0</span>)</a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的宅配></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">待评价商品(<span>0</span>)</a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的收藏></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">优惠券(<span>0</span>)</a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的退货></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的会员></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">充&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 值></a>
+									</li>
+									<li>
+										<a href="javascript:;" target="_blank">我的积分></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--顶部的导航条-->
+			<div class="head-nav">
+				<div class="box1200">
+					<dl class="nav-left">
+						<dt><a href="javascript:;" target="_blank" class="til-shop">所有商品分类</a></dt>
+						<dd>
+							<div class="nav-shoplist">
+								<dl>
+									<dt class="list1"><a href="javascript:;">镇店之宝</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list2"><a href="javascript:;">水果</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list3"><a href="javascript:;">蔬菜</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list4"><a href="javascript:;">肉禽蛋品</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list5"><a href="javascript:;">水产海鲜</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list6"><a href="javascript:;">熟食面点</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list7"><a href="javascript:;">粮油副食</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list8"><a href="javascript:;">乳品烘焙</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list9"><a href="javascript:;">休闲食品</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list10"><a href="javascript:;">酒水茶饮</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list11"><a href="javascript:;">厨房用品</a></dt>
+									<dd></dd>
+								</dl>
+								<dl>
+									<dt class="list12"><a href="javascript:;">礼品礼盒</a></dt>
+									<dd></dd>
+								</dl>
+							</div>
+						</dd>
+					</dl>
+					<ol class="nav-right">
+						<li>
+							<a href="javascript:;" target="_blank">首页</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">本来扶贫</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">台湾特产</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">台创园</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">韩国馆</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">充值</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">全国配</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">本来礼品</a>
+						</li>
+						<li>
+							<a href="javascript:;" target="_blank">兑换专区</a>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<!--选择地区时的遮罩-->
+			<div class="zhezhao">
+			</div>
+		</div>
+		<!--公共的底部部分-->
+		<div class="public-footers">
+			
+			<!--底部的广告条-->
+			<div class="foot-bar">
+				<div class="box1200" style="width:1200px;margin:0 auto;">
+					<dl>
+						<dt class="pi1"></dt>
+						<dd>
+							<span>18小时低温</span>
+							全程冷链配送
+						</dd>
+					</dl>
+					<dl>
+						<dt class="pi2"></dt>
+						<dd>
+							<span>0时差基地直供</span>
+							农田到餐桌
+						</dd>
+					</dl>
+					<dl>
+						<dt class="pi4"></dt>
+						<dd>
+							<span>43项检测</span>
+							安全无农残
+						</dd>
+					</dl>
+					<dl>
+						<dt class="pi4"></dt>
+						<dd>
+							<span>7*24小时营业</span>
+							全年无休
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<!--底部的链接-->
+			<div class="footer">
+				<dl>
+					<dt class="bpi1">新手指南</dt>
+					<dd>
+						<a href="javascript:;">购物流程</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">会员政策</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">联系客服</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">积分政策</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">加入我们</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="bpi2">配送方式</dt>
+					<dd>
+						<a href="javascript:;">全程冷链</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">配送时间</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">配送范围</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">配送收费标准</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">关于我们</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="bpi3">支付方式</dt>
+					<dd>
+						<a href="javascript:;">在线支付</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">其他支付方式</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">优惠券使用</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">礼金卡使用</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt class="bpi4">售后服务</dt>
+					<dd>
+						<a href="javascript:;">验货与拒收政策</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">退换货政策</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">退换货流程</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">退款流程</a>
+					</dd>
+					<dd>
+						<a href="javascript:;">发票制度</a>
+					</dd>
+				</dl>
+			</div>
+			<!--底部的信息-->
+			<div class="foot-info">
+				<dl>
+					<dt>
+						<img src="images/phone.gif" alt="" width="17" height="13"/>
+						客服热线：4006-917-917（周一至周日 8:00 - 20:00）
+					</dt>
+					<dd class="infodd-1">
+						<a href="javascript:;">加入我们</a>
+						<a href="javascript:;">联系我们</a>
+						<a href="javascript:;">关于我们</a>
+						<a href="javascript:;">友情链接</a>
+						<a href="javascript:;">品牌食材</a>
+						<a href="javascript:;">食品经营许可证</a>
+						<a href="javascript:;">营业执照</a>
+					</dd>
+					<dd class="infodd-2">
+						<a href="" style="position:relative">
+							<img src="images/hui.png" alt="" style="position:absolute;left:-12px;top:-4px;"/>
+							京公安备 11010502022386号
+						</a>
+						<a href="javascript:;">京ICP证120338号</a>
+						<a href="javascript:;">京B2-20180980</a>
+					</dd>
+					<dd>
+						<span>© 2012-2019 Benlai.com. All Rights Reserved. 北京本来工坊科技有限公司</span>
+					</dd>
+					<dd style="height:37px;position:relative;">
+						<img src="images/kexin.jpg" alt="" width=102 height=37 style="position:absolute;left:45%"/>
+					</dd>
+				</dl>
+			</div>
+			<!--底部的侧边栏-->
+			<div class="foot-aside">
+				<a href="javascript:;" id="go-top"></a>
+				<a href="shopcar.html" id="right-car" title="前往购物车"></a><div class="whitebg"></div>
+				<a href="javascript:;" id="kefu"></a>
+				<a href="javascript:;" id="erwei"></a>
+			</div>
+			<!--添加购物时出来的div-->
+			<div class="active-cart">
+				<div class="pop-buy">
+					<ul class="item-add">
+						<li>
+							<div class="item-pic">
+								<img src="" alt="" />
+							</div>
+							<div class="item-name">
+								<span id="pname"></span><br />
+								<em>x&nbsp;&nbsp;<font id="pnum"></font>&nbsp;加入成功</em>
+							</div>
+							<div class="item-price"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--活动的二维码框-->
+			<div class="erwei-box">
+					<div class="code1">
+						<div class="codebox">
+							<img src="images/zhang.png" alt="" />
+							<b>扫描下载客户端</b>
+						</div>
+					</div>
+					<div class="code2">
+						<div class="codebox">
+							<img src="images/zhang.png" alt="" />
+							<b>扫描下载客户端</b>
+						</div>
+					</div>
+					<div class="code3">
+						<div class="codebox">
+							<img src="images/zhang.png" alt="" />
+							<b>扫描下载客户端</b>
+						</div>
+					</div>
+				</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/sport6.js"></script>
+<script src="js/public.js"></script>
